@@ -13,8 +13,18 @@
             <li class="hover:text-green-800"><a href="/cafe">Café</a></li>
             <li class="hover:text-green-800"><a href="/rewards">Rewards</a></li>
             <li class="hover:text-green-800"><a href="/delivery">Delivery</a></li>
-            <li class="hover:text-green-800"><a href="">Starbucks® Bernabeu</a></li>
-            <li class="hover:text-green-800"><a href="">Más</a></li>
+            <li class="hover:text-green-800"><a href="/starbucksBernabeu">Starbucks® Bernabeu</a></li>
+            <li>
+                <select
+                    class="cursor-pointer"
+                    onchange="window.location.href=this.value"
+                >
+                    <option selected disabled>Más</option>
+                    <option value="/responsabilidad">Responsabilidad</option>
+                    <option value="/merchandising">Merchandising</option>
+                    <option value="/menu">Menú</option>
+                </select>
+            </li>
         </ul>
     </nav>
 
